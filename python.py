@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from django.db import models
 
 # Create your models here.
@@ -11,3 +12,8 @@ class Book(models.Model):
     title = models.CharField(max_length=100)
     author = models.CharField(max_length=50)
     publication_date = models.DateField(null=True)
+=======
+# This my first Githup file
+>>>>>>> d3189bdb2cfa26621a0c9a3c91e61d1d94f5108d
+import math
+print(math.sqrt(16))
